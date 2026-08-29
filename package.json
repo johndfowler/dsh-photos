@@ -1,0 +1,9 @@
+{
+  "name": "dsh-photos",
+  "version": "0.1.0",
+  "description": "Photo upload for the DeepSeek Harness composer — native picker feeding the stock paste pipeline",
+  "license": "MIT",
+  "dsh": {
+    "browser": "lib/client.js"
+  }
+}
