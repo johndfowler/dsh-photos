@@ -1,6 +1,6 @@
 {
   "name": "dsh-photos",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Photo upload for the DeepSeek Harness composer — native picker feeding the stock paste pipeline",
   "type": "module",
   "main": "lib/index.js",
