@@ -1,0 +1,6 @@
+# dsh-photos bundle patch: inserts the photos plugin row into the web profile
+# roster. The node half is a no-op; the browser half (exports "./client")
+# mounts the photo picker at load.
+- insert:
+    - id: dsh-photos
+      name: "dsh-photos"

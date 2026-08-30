@@ -2,8 +2,21 @@
   "name": "dsh-photos",
   "version": "0.1.0",
   "description": "Photo upload for the DeepSeek Harness composer — native picker feeding the stock paste pipeline",
-  "license": "MIT",
+  "type": "module",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./client": "./lib/client.js",
+    "./package.json": "./package.json"
+  },
   "dsh": {
-    "browser": "lib/client.js"
-  }
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "inject": [],
+      "platform": "web"
+    }
+  },
+  "license": "MIT"
 }
